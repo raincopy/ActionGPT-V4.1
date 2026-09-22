@@ -10,6 +10,15 @@
 
 상태 확인과 서명된 아티팩트 다운로드 경로는 OpenAPI에서 제외된다. Action API는 세 개로 유지하며 세부 동작은 `category_code`와 `command_code`로 선택한다.
 
+처음 해야 할일 
+ngrok 세팅 
+이후 
+liq_analysis_server 디렉토리의 config.py 의 아랫부분을 ngrok 에 맞게 설정 
+PUBLIC_SERVER_URL = os.environ.get(
+    "LIQ_ACTION_PUBLIC_URL",
+    "https://subcommissarial-xxx.xxx.ngrok-free.dev",
+).rstrip("/")
+
 ## 실행
 
 ```bat
