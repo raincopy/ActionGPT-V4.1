@@ -23,7 +23,7 @@ run_action_Liq_editor.bat
 ```
 
 Action GPT에 등록할 OpenAPI 주소는 `https://subcommissarial-xxx-xxx.ngrok-free.dev/openapi.json` 형태 로 만들어야 한다. 
-이다. OpenAPI의 `servers` 기준 URL도 `[https://subcommissarial-sid-votable.ngrok-free.dev](https://subcommissarial-xxx-xxx.ngrok-free.dev)`로 설정된다. FastAPI는 기본적으로 `0.0.0.0:8012`에서 수신하며 ngrok이 이 로컬 포트로 전달해야 한다. 기본 작업 루트는 `C:\Project\Myproject` 로 할수 있고, 서버 보호 경로는 `C:\Project\ActGPT4.1`이다.
+이다. OpenAPI의 `servers` 기준 URL도 `(https://subcommissarial-xxx-xxx.ngrok-free.dev)`로 설정된다. FastAPI는 기본적으로 `0.0.0.0:8012`에서 수신하며 ngrok이 이 로컬 포트로 전달해야 한다. 기본 작업 루트는 `C:\Project\Myproject` 로 할수 있고, 서버 보호 경로는 `C:\Project\ActGPT4.1`이다.
 
 ## 주요 EXECUTION 명령
 
