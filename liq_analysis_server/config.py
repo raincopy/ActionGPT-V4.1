@@ -21,7 +21,7 @@ SERVER_HOST = os.environ.get("LIQ_ACTION_HOST", "0.0.0.0")
 SERVER_PORT = int(os.environ.get("LIQ_ACTION_PORT", "8012"))
 PUBLIC_SERVER_URL = os.environ.get(
     "LIQ_ACTION_PUBLIC_URL",
-    "https://subcommissarial-sid-votable.ngrok-free.dev",
+    "https://subcommissarial-xxx-xxx.ngrok-free.dev",
 ).rstrip("/")
 API_KEY = os.environ.get("LIQ_ACTION_API_KEY", "").strip()
 MAX_WORKERS = int(os.environ.get("LIQ_ACTION_MAX_WORKERS", "6"))
