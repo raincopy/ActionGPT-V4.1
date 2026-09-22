@@ -1,4 +1,4 @@
-# Liq-analysis Action GPT Server v0.2.0
+# Liq-analysis Action GPT Server v4.1
 
 `ActGPTEx`는 Liq-Map 로컬 개발 환경을 대상으로 파일·DB·프로세스·브라우저·Windows UI의 실행-관찰-조작-검증 루프를 제공한다.
 
